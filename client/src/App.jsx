@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter , Routes , Route} from 'react-router-dom'
 import Home from './pages/Home'
 import GetCurrentUser from './hooks/GetCurrentUser.jsx'
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://genweb-ai-6q08.onrender.com"
 import Dashboard from './pages/Dashboard.jsx'
 import Generate from './pages/Generate.jsx'
 import { Navigate } from 'react-router-dom'
